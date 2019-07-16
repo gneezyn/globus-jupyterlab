@@ -21,7 +21,6 @@ import {
     GlobusTransferItem,
     GlobusTransferTask
 } from "../api/models";
-import {GCP_ENDPOINT_ID} from "./globus_connect_personal";
 import {
     LOADING_LABEL,
     LOADING_ICON,

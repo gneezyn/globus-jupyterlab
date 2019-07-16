@@ -1,4 +1,4 @@
-import {ILayoutRestorer, JupyterLab, JupyterLabPlugin} from '@jupyterlab/application';
+import {ILayoutRestorer, JupyterLab, JupyterLabPlugin, LabShell, ILabShell} from '@jupyterlab/application';
 import '../style/index.css';
 import {GlobusHome} from "./globus/home";
 import {IDocumentManager} from '@jupyterlab/docmanager';

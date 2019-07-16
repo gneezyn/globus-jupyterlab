@@ -23,8 +23,6 @@ Main directory for defining the widgets. Contains the following files:
 * [File Manager](../../../src/globus/widgets/file_manager.ts)
     * Implements the "File Manager" feature, which allows users to manipulate files in various ways (i.e., create new folder, delete a file).
     * Includes the ability to create shared endpoints and make transfer requests.
-* [Globus Connect Personal](../../../src/globus/widgets/globus_connect_personal.ts)
-    * The Globus Connect Personal widget is currently disabled.
 * [Search](../../../src/globus/widgets/search.ts)
     * Implements the "Search" feature, which allows users to search for endpoints.
     * Includes search indexes.

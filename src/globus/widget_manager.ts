@@ -17,7 +17,6 @@ import {GlobusSearch} from "./widgets/search";
 const GLOBUS_WIDGET_MANAGER = 'jp-Globus-widgetManager';
 const GLOBUS_TOOLBAR = 'jp-WidgetManager-toolbar';
 const GLOBUS_TOOLBAR_BTN = 'jp-WidgetManager-toolbarBtn';
-// const GLOBUS_CONNECT_PERSONAL_BTN = 'jp-WidgetManager-connectPersonalBtn';
 const GLOBUS_FILEMANAGER_BTN = 'jp-WidgetManager-fileManagerBtn';
 const GLOBUS_ACTIVITY_BTN = 'jp-WidgetManager-activityBtn';
 const GLOBUS_SEARCH_BTN = 'jp-WidgetManager-searchBtn';
@@ -150,9 +149,6 @@ export class GlobusWidgetManager extends Widget {
      * Creates all widgets. New widgets should be added here in a similar way as the others
      */
     private createWidgets() {
-        // let connectPersonalWidget = new GlobusConnectPersonal(this.app, this.manager, this.factory);
-        // this.initWidget(connectPersonalWidget);
-        // this.createToolbarButton(connectPersonalWidget, GLOBUS_CONNECT_PERSONAL_BTN);
 
         let fileManagerWidget = new GlobusFileManager();
         this.initWidget(fileManagerWidget);
